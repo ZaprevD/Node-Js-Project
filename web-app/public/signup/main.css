@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+h1{
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid black;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form input{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    padding: 5px;
+}

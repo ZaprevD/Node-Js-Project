@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+body{
+    text-align: center;
+    padding: 5px;
+}
+
+#root{
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-Holder{
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+    border : 1px solid black;
+    text-align: left;
+}
+
+.product-Holder h4{
+    margin: 15px;
+}

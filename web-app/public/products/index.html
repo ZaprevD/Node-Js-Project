@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Products</h1>
+
+    <button id="add-product">Add Product</button>
+    <button id="create-supplier">Make Supplier</button>
+    <button id="account-info">Account Info</button>
+    <div id="root"></div>
+
+    <form class="hidden">
+        <input type="button" id="close" value="Close">
+        <input type="text" name="yourUserName" placeholder="Insert Your Username" id="user" readonly="true">
+        <input type="text" name="Description" placeholder="Description" id="desc">
+        <input type="text" name="Current_Price" placeholder="Price $" id="price">
+        <input type="text " name="CategoryId" placeholder="Category Number" id="category">
+        <input type="button" value="Add Product" id="sub">
+    </form>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="makeHtml.js"></script>
+    <script src="changeActions.js"></script>
+    <script src="accinfo.js"></script>
+    <script src="supplier.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
